@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This standard is developed by HGG Profiling Equipment software development.
+Name: ProCAM XML
+Year: 2011
+Internet: www.hgg.nl
+Address: P.O. Box 66
+1775 ZH Middenmeer
+The Netherlands
+info@hgg.nl
+-->
+<dnc version="6.0" xmlns="http://www.hgg.nl/schemas/procam/v6.0">
+   <procam_version>2021.3.6.22</procam_version>
+   <origin_paths>-</origin_paths>
+   <projects>
+      <project id="1" name="ANABELLA 742">
+         <source type="MDI" name="ProCAM" version="2021_SR3"/>
+         <target targetname="-" targetid="-" targettype="-"/>
+         <assemblies>
+            <assembly id="1" name="IPE240">
+               <parts>
+                  <h_beam amount="1" mirroredamount="0" id="1" hold="false" canorder="n/a" selected="true" name="B4" profilename="IPE240" profile="h_beam">
+                     <weblength unit="mm">240.0000</weblength>
+                     <webthickness unit="mm">6.2000</webthickness>
+                     <flangelength unit="mm">120.0000</flangelength>
+                     <flangethickness unit="mm">9.8000</flangethickness>
+                     <radius unit="mm">15.0000</radius>
+                     <flangetaperratio>0.0000</flangetaperratio>
+                     <group/>
+                     <destination/>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">X</materialname>
+                     <source type="MDI" name="ProCAM" version="2021_SR3"/>
+                     <target targetname="MTD Simplu Construct RPC 1200" targetid="1620" targettype="RPC1200MKII"/>
+                     <customView>false</customView>
+                     <customViewEye x="0.0000" y="0.0000" z="0.0000"/>
+                     <customViewCenter x="0.0000" y="0.0000" z="0.0000"/>
+                     <customViewUp x="0.0000" y="0.0000" z="0.0000"/>
+                     <length unit="mm">4265.0000</length>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">4305.0000</maxlength>
+                     <attachment></attachment>
+                     <macros>
+                        <fp id="1" type="fp" name="FP" refId="-1">
+                           <order>0</order>
+                           <x_slot unit="mm">0.0000</x_slot>
+                           <q_slot unit="mm">0.0000</q_slot>
+                           <r_slot unit="mm">0.0000</r_slot>
+                           <r_fix unit="mm">0.0000</r_fix>
+                           <bevel_f unit="deg">0.0000</bevel_f>
+                           <bevel_if unit="deg">0.0000</bevel_if>
+                           <nose_f unit="mm">0.0000</nose_f>
+                           <bevel_w unit="deg">0.0000</bevel_w>
+                           <bevel_iw unit="deg">0.0000</bevel_iw>
+                           <nose_w unit="mm">0.0000</nose_w>
+                           <slope unit="deg">90.0000</slope>
+                           <slope2 unit="deg">0.0000</slope2>
+                           <eccentricity unit="mm">0.0000</eccentricity>
+                           <side>Start</side>
+                           <tooltype>n/a</tooltype>
+                        </fp>
+                        <fp id="2" type="fp" name="FP(2)" refId="-1">
+                           <order>0</order>
+                           <x_slot unit="mm">0.0000</x_slot>
+                           <q_slot unit="mm">0.0000</q_slot>
+                           <r_slot unit="mm">0.0000</r_slot>
+                           <r_fix unit="mm">0.0000</r_fix>
+                           <bevel_f unit="deg">0.0000</bevel_f>
+                           <bevel_if unit="deg">0.0000</bevel_if>
+                           <nose_f unit="mm">0.0000</nose_f>
+                           <bevel_w unit="deg">0.0000</bevel_w>
+                           <bevel_iw unit="deg">0.0000</bevel_iw>
+                           <nose_w unit="mm">0.0000</nose_w>
+                           <slope unit="deg">90.0000</slope>
+                           <slope2 unit="deg">0.0000</slope2>
+                           <eccentricity unit="mm">0.0000</eccentricity>
+                           <side>End</side>
+                           <tooltype>n/a</tooltype>
+                        </fp>
+                        <hole id="3" type="hole" name="HOLE" refId="-1">
+                           <order>1</order>
+                           <distance>3629.0000;3829.0000;3909.0000</distance>
+                           <plane>Bottom</plane>
+                           <eccentricity unit="mm">35.0000</eccentricity>
+                           <d unit="mm">19.5000</d>
+                           <tooltype>n/a</tooltype>
+                        </hole>
+                        <hole id="5" type="hole" name="HOLE(2)" refId="-1">
+                           <order>2</order>
+                           <distance>3629.0000;3829.0000;3909.0000</distance>
+                           <plane>Bottom</plane>
+                           <eccentricity unit="mm">-35.0000</eccentricity>
+                           <d unit="mm">19.5000</d>
+                           <tooltype>n/a</tooltype>
+                        </hole>
+                        <plasmatext_v2 id="4" type="plasmatext_v2" name="PlasmaText" refId="-1">
+                           <order>3</order>
+                           <text>B6 </text>
+                           <distance unit="mm">150.0000</distance>
+                           <text_height unit="mm">20.0000</text_height>
+                           <eccentricity unit="mm">20.0000</eccentricity>
+                           <angle unit="deg">0.0000</angle>
+                           <mark_mode>Mark</mark_mode>
+                           <plane>Top</plane>
+                        </plasmatext_v2>
+                     </macros>
+                  </h_beam>
+               </parts>
+            </assembly>
+         </assemblies>
+         <cangroups/>
+      </project>
+   </projects>
+</dnc>

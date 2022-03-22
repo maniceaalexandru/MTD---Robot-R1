@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This standard is developed by HGG Profiling Equipment software development.
+Name: ProCAM XML
+Year: 2011
+Internet: www.hgg.nl
+Address: P.O. Box 66
+1775 ZH Middenmeer
+The Netherlands
+info@hgg.nl
+-->
+<dnc xmlns="http://www.hgg.nl/schemas/procam/v6.0" version="6.0">
+   <procam_version>2021.3.6.22</procam_version>
+   <origin_paths>-</origin_paths>
+   <nestprojects>
+      <nestproject id="1" name="autonet 1427">
+         <jobs>
+            <job id="1" name="ipe240">
+               <target targetid="1620" targetname="MTD Simplu Construct RPC 1200" targettype="RPC1200MKII"/>
+               <stockitems>
+                  <h_beam id="1" selected="true" restlabel="" profilename="IPE240" hold="false" profile="h_beam" name="Auto Stock">
+                     <weblength unit="mm">240.0000</weblength>
+                     <webthickness unit="mm">6.2000</webthickness>
+                     <flangelength unit="mm">120.0000</flangelength>
+                     <flangethickness unit="mm">9.8000</flangethickness>
+                     <radius unit="mm">15.0000</radius>
+                     <flangetaperratio>0.0000</flangetaperratio>
+                     <handlingoffset unit="mm">0.0000</handlingoffset>
+                     <restlength unit="mm">1428.2852</restlength>
+                     <status>Assigned</status>
+                     <date/>
+                     <stocksource>auto_stock</stocksource>
+                     <remark/>
+                     <specialnestingtype>Reduce Part Spacing</specialnestingtype>
+                     <supplier/>
+                     <location/>
+                     <order>1</order>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">X</materialname>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">12000.0000</maxlength>
+                     <nestparts>
+                        <nestpart id="3" reverse="false" refId="2" batch="" partRefId="-1" selected="true" turnover="false" hold="false" profile="h_beam" name="k2(1)" group="" reduction="-38.2852">
+                           <offset unit="mm">20.0000</offset>
+                           <rotation unit="deg">0.0000</rotation>
+                           <inverted>false</inverted>
+                           <status>Assigned</status>
+                           <destination/>
+                           <currentMaxlength unit="mm">10590.0000</currentMaxlength>
+                        </nestpart>
+                     </nestparts>
+                  </h_beam>
+                  <h_beam id="2" selected="true" restlabel="" profilename="IPE240" hold="false" profile="h_beam" name="Auto Stock(2)">
+                     <weblength unit="mm">240.0000</weblength>
+                     <webthickness unit="mm">6.2000</webthickness>
+                     <flangelength unit="mm">120.0000</flangelength>
+                     <flangethickness unit="mm">9.8000</flangethickness>
+                     <radius unit="mm">15.0000</radius>
+                     <flangetaperratio>0.0000</flangetaperratio>
+                     <handlingoffset unit="mm">0.0000</handlingoffset>
+                     <restlength unit="mm">1428.2852</restlength>
+                     <status>Assigned</status>
+                     <date/>
+                     <stocksource>auto_stock</stocksource>
+                     <remark/>
+                     <specialnestingtype>Reduce Part Spacing</specialnestingtype>
+                     <supplier/>
+                     <location/>
+                     <order>2</order>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">X</materialname>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">12000.0000</maxlength>
+                     <nestparts>
+                        <nestpart id="4" reverse="false" refId="2" batch="" partRefId="-1" selected="true" turnover="false" hold="false" profile="h_beam" name="k2(2)" group="" reduction="-38.2852">
+                           <offset unit="mm">20.0000</offset>
+                           <rotation unit="deg">0.0000</rotation>
+                           <inverted>false</inverted>
+                           <status>Assigned</status>
+                           <destination/>
+                           <currentMaxlength unit="mm">10590.0000</currentMaxlength>
+                        </nestpart>
+                     </nestparts>
+                  </h_beam>
+                  <h_beam id="3" selected="true" restlabel="" profilename="IPE240" hold="false" profile="h_beam" name="Auto Stock(3)">
+                     <weblength unit="mm">240.0000</weblength>
+                     <webthickness unit="mm">6.2000</webthickness>
+                     <flangelength unit="mm">120.0000</flangelength>
+                     <flangethickness unit="mm">9.8000</flangethickness>
+                     <radius unit="mm">15.0000</radius>
+                     <flangetaperratio>0.0000</flangetaperratio>
+                     <handlingoffset unit="mm">0.0000</handlingoffset>
+                     <restlength unit="mm">628.2852</restlength>
+                     <status>Assigned</status>
+                     <date/>
+                     <stocksource>auto_stock</stocksource>
+                     <remark/>
+                     <specialnestingtype>Reduce Part Spacing</specialnestingtype>
+                     <supplier/>
+                     <location/>
+                     <order>3</order>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">X</materialname>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">12000.0000</maxlength>
+                     <nestparts>
+                        <nestpart id="2" reverse="false" refId="3" batch="" partRefId="-1" selected="true" turnover="false" hold="false" profile="h_beam" name="k1(2)" group="" reduction="-38.2852">
+                           <offset unit="mm">20.0000</offset>
+                           <rotation unit="deg">0.0000</rotation>
+                           <inverted>false</inverted>
+                           <status>Assigned</status>
+                           <destination/>
+                           <currentMaxlength unit="mm">5690.0000</currentMaxlength>
+                        </nestpart>
+                        <nestpart id="1" reverse="false" refId="3" batch="" partRefId="-1" selected="true" turnover="false" hold="false" profile="h_beam" name="k1(1)" group="" reduction="-38.2852">
+                           <offset unit="mm">48.2852</offset>
+                           <rotation unit="deg">0.0000</rotation>
+                           <inverted>false</inverted>
+                           <status>Assigned</status>
+                           <destination/>
+                           <currentMaxlength unit="mm">5690.0000</currentMaxlength>
+                        </nestpart>
+                     </nestparts>
+                  </h_beam>
+               </stockitems>
+            </job>
+         </jobs>
+      </nestproject>
+   </nestprojects>
+   <projects>
+      <project id="1" name="autonet 1427">
+         <source version="2021_SR3" type="MDI" name="ProCAM"/>
+         <target targetid="-" targetname="-" targettype="-"/>
+         <assemblies>
+            <assembly id="1" name="ipe240">
+               <parts>
+                  <h_beam id="2" mirroredamount="0" amount="2" selected="true" canorder="n/a" profilename="IPE240" hold="false" profile="h_beam" name="k2">
+                     <weblength unit="mm">240.0000</weblength>
+                     <webthickness unit="mm">6.2000</webthickness>
+                     <flangelength unit="mm">120.0000</flangelength>
+                     <flangethickness unit="mm">9.8000</flangethickness>
+                     <radius unit="mm">15.0000</radius>
+                     <flangetaperratio>0.0000</flangetaperratio>
+                     <group/>
+                     <destination/>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">X</materialname>
+                     <source version="2021_SR3" type="MDI" name="ProCAM"/>
+                     <target targetid="1620" targetname="MTD Simplu Construct RPC 1200" targettype="RPC1200MKII"/>
+                     <customView>false</customView>
+                     <customViewEye x="0.0000" z="0.0000" y="0.0000"/>
+                     <customViewCenter x="0.0000" z="0.0000" y="0.0000"/>
+                     <customViewUp x="0.0000" z="0.0000" y="0.0000"/>
+                     <length unit="mm">10550.0000</length>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">10590.0000</maxlength>
+                     <attachment></attachment>
+                     <macros>
+                        <fp id="1" refId="-1" type="fp" name="FP">
+                           <order>0</order>
+                           <x_slot unit="mm">0.0000</x_slot>
+                           <q_slot unit="mm">0.0000</q_slot>
+                           <r_slot unit="mm">0.0000</r_slot>
+                           <r_fix unit="mm">0.0000</r_fix>
+                           <bevel_f unit="deg">0.0000</bevel_f>
+                           <bevel_if unit="deg">0.0000</bevel_if>
+                           <nose_f unit="mm">0.0000</nose_f>
+                           <bevel_w unit="deg">0.0000</bevel_w>
+                           <bevel_iw unit="deg">0.0000</bevel_iw>
+                           <nose_w unit="mm">0.0000</nose_w>
+                           <slope unit="deg">90.0000</slope>
+                           <slope2 unit="deg">0.0000</slope2>
+                           <eccentricity unit="mm">0.0000</eccentricity>
+                           <side>Start</side>
+                           <tooltype>n/a</tooltype>
+                        </fp>
+                        <fp id="2" refId="-1" type="fp" name="FP(2)">
+                           <order>0</order>
+                           <x_slot unit="mm">0.0000</x_slot>
+                           <q_slot unit="mm">0.0000</q_slot>
+                           <r_slot unit="mm">0.0000</r_slot>
+                           <r_fix unit="mm">0.0000</r_fix>
+                           <bevel_f unit="deg">0.0000</bevel_f>
+                           <bevel_if unit="deg">0.0000</bevel_if>
+                           <nose_f unit="mm">0.0000</nose_f>
+                           <bevel_w unit="deg">0.0000</bevel_w>
+                           <bevel_iw unit="deg">0.0000</bevel_iw>
+                           <nose_w unit="mm">0.0000</nose_w>
+                           <slope unit="deg">90.0000</slope>
+                           <slope2 unit="deg">0.0000</slope2>
+                           <eccentricity unit="mm">0.0000</eccentricity>
+                           <side>End</side>
+                           <tooltype>n/a</tooltype>
+                        </fp>
+                        <hole id="3" refId="-1" type="hole" name="HOLE">
+                           <order>1</order>
+                           <distance>881.0000;951.0000;1051.0000;1121.0000;4390.0000;4460.0000;4560.0000;4630.0000;6626.0000;6696.0000;6796.0000;6866.0000;9881.0000;9951.0000;10051.0000;10121.0000</distance>
+                           <plane>Top</plane>
+                           <eccentricity unit="mm">32.5000</eccentricity>
+                           <d unit="mm">19.3000</d>
+                           <tooltype>n/a</tooltype>
+                        </hole>
+                        <hole id="6" refId="-1" type="hole" name="HOLE(2)">
+                           <order>2</order>
+                           <distance>881.0000;951.0000;1051.0000;1121.0000;4390.0000;4460.0000;4560.0000;4630.0000;6626.0000;6696.0000;6796.0000;6866.0000;9881.0000;9951.0000;10051.0000;10121.0000</distance>
+                           <plane>Top</plane>
+                           <eccentricity unit="mm">-32.5000</eccentricity>
+                           <d unit="mm">19.3000</d>
+                           <tooltype>n/a</tooltype>
+                        </hole>
+                        <plasmatext_v2 id="5" refId="-1" type="plasmatext_v2" name="PlasmaText">
+                           <order>3</order>
+                           <text>K2</text>
+                           <distance unit="mm">150.0000</distance>
+                           <text_height unit="mm">20.0000</text_height>
+                           <eccentricity unit="mm">20.0000</eccentricity>
+                           <angle unit="deg">0.0000</angle>
+                           <mark_mode>Mark</mark_mode>
+                           <plane>Top</plane>
+                        </plasmatext_v2>
+                     </macros>
+                  </h_beam>
+                  <h_beam id="3" mirroredamount="0" amount="2" selected="true" canorder="n/a" profilename="IPE240" hold="false" profile="h_beam" name="k1">
+                     <weblength unit="mm">240.0000</weblength>
+                     <webthickness unit="mm">6.2000</webthickness>
+                     <flangelength unit="mm">120.0000</flangelength>
+                     <flangethickness unit="mm">9.8000</flangethickness>
+                     <radius unit="mm">15.0000</radius>
+                     <flangetaperratio>0.0000</flangetaperratio>
+                     <group/>
+                     <destination/>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">X</materialname>
+                     <source version="2021_SR3" type="MDI" name="ProCAM"/>
+                     <target targetid="1620" targetname="MTD Simplu Construct RPC 1200" targettype="RPC1200MKII"/>
+                     <customView>false</customView>
+                     <customViewEye x="0.0000" z="0.0000" y="0.0000"/>
+                     <customViewCenter x="0.0000" z="0.0000" y="0.0000"/>
+                     <customViewUp x="0.0000" z="0.0000" y="0.0000"/>
+                     <length unit="mm">5650.0000</length>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">5690.0000</maxlength>
+                     <attachment></attachment>
+                     <macros>
+                        <fp id="7" refId="-1" type="fp" name="FP">
+                           <order>0</order>
+                           <x_slot unit="mm">0.0000</x_slot>
+                           <q_slot unit="mm">0.0000</q_slot>
+                           <r_slot unit="mm">0.0000</r_slot>
+                           <r_fix unit="mm">0.0000</r_fix>
+                           <bevel_f unit="deg">0.0000</bevel_f>
+                           <bevel_if unit="deg">0.0000</bevel_if>
+                           <nose_f unit="mm">0.0000</nose_f>
+                           <bevel_w unit="deg">0.0000</bevel_w>
+                           <bevel_iw unit="deg">0.0000</bevel_iw>
+                           <nose_w unit="mm">0.0000</nose_w>
+                           <slope unit="deg">90.0000</slope>
+                           <slope2 unit="deg">0.0000</slope2>
+                           <eccentricity unit="mm">0.0000</eccentricity>
+                           <side>Start</side>
+                           <tooltype>n/a</tooltype>
+                        </fp>
+                        <fp id="8" refId="-1" type="fp" name="FP(2)">
+                           <order>0</order>
+                           <x_slot unit="mm">0.0000</x_slot>
+                           <q_slot unit="mm">0.0000</q_slot>
+                           <r_slot unit="mm">0.0000</r_slot>
+                           <r_fix unit="mm">0.0000</r_fix>
+                           <bevel_f unit="deg">0.0000</bevel_f>
+                           <bevel_if unit="deg">0.0000</bevel_if>
+                           <nose_f unit="mm">0.0000</nose_f>
+                           <bevel_w unit="deg">0.0000</bevel_w>
+                           <bevel_iw unit="deg">0.0000</bevel_iw>
+                           <nose_w unit="mm">0.0000</nose_w>
+                           <slope unit="deg">90.0000</slope>
+                           <slope2 unit="deg">0.0000</slope2>
+                           <eccentricity unit="mm">0.0000</eccentricity>
+                           <side>End</side>
+                           <tooltype>n/a</tooltype>
+                        </fp>
+                        <hole id="9" refId="-1" type="hole" name="HOLE">
+                           <order>1</order>
+                           <distance>881.0000;951.0000;1051.0000;1121.0000;4390.0000;4460.0000;4560.0000;4630.0000</distance>
+                           <plane>Top</plane>
+                           <eccentricity unit="mm">32.5000</eccentricity>
+                           <d unit="mm">19.3000</d>
+                           <tooltype>n/a</tooltype>
+                        </hole>
+                        <plasmatext_v2 id="10" refId="-1" type="plasmatext_v2" name="PlasmaText">
+                           <order>3</order>
+                           <text>K1</text>
+                           <distance unit="mm">150.0000</distance>
+                           <text_height unit="mm">20.0000</text_height>
+                           <eccentricity unit="mm">20.0000</eccentricity>
+                           <angle unit="deg">0.0000</angle>
+                           <mark_mode>Mark</mark_mode>
+                           <plane>Top</plane>
+                        </plasmatext_v2>
+                     </macros>
+                  </h_beam>
+               </parts>
+            </assembly>
+         </assemblies>
+         <cangroups/>
+      </project>
+   </projects>
+</dnc>

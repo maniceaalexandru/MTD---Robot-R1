@@ -1,0 +1,1634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This standard is developed by HGG Profiling Equipment software development.
+Name: ProCAM XML
+Year: 2011
+Internet: www.hgg.nl
+Address: P.O. Box 66
+1775 ZH Middenmeer
+The Netherlands
+info@hgg.nl
+-->
+<dnc version="6.0" xmlns="http://www.hgg.nl/schemas/procam/v6.0">
+   <procam_version>2021.3.6.22</procam_version>
+   <origin_paths>C:/Users/user/Desktop/CAZARMA TARLUNGENI + PASARELA/Parcul Feroviarilor - Pachet Pasarele - 2 pasarele/08.02.2022/NC, DXF P1/NC/208.nc;C:/Users/user/Desktop/CAZARMA TARLUNGENI + PASARELA/Parcul Feroviarilor - Pachet Pasarele - 2 pasarele/08.02.2022/NC, DXF P1/NC/205.nc;C:/Users/user/Desktop/CAZARMA TARLUNGENI + PASARELA/Parcul Feroviarilor - Pachet Pasarele - 2 pasarele/08.02.2022/NC, DXF P1/NC/204.nc;C:/Users/user/Desktop/CAZARMA TARLUNGENI + PASARELA/Parcul Feroviarilor - Pachet Pasarele - 2 pasarele/08.02.2022/NC, DXF P1/NC/203.nc</origin_paths>
+   <nestprojects>
+      <nestproject name="-" id="1"/>
+      <nestproject name="pasarela 1&amp;2" id="2">
+         <jobs>
+            <job name="L120X12" id="2">
+               <target targetname="MTD Simplu Construct RPC 1200" targettype="RPC1200MKII" targetid="1620"/>
+               <nestparts>
+                  <nestpart hold="false" turnover="false" batch="" reduction="0.0000" refId="3" name="204 pasarela 1" reverse="false" profile="angle" group="" id="12" selected="true" partRefId="-1">
+                     <offset unit="mm">5.0000</offset>
+                     <rotation unit="deg">0.0000</rotation>
+                     <inverted>false</inverted>
+                     <status>Not Assigned</status>
+                     <destination/>
+                     <currentMaxlength unit="mm">4990.0000</currentMaxlength>
+                  </nestpart>
+                  <nestpart hold="false" turnover="false" batch="" reduction="0.0000" refId="4" name="203 pasarela 1(1)" reverse="false" profile="angle" group="" id="10" selected="true" partRefId="-1">
+                     <offset unit="mm">3.0000</offset>
+                     <rotation unit="deg">0.0000</rotation>
+                     <inverted>false</inverted>
+                     <status>Not Assigned</status>
+                     <destination/>
+                     <currentMaxlength unit="mm">6780.0000</currentMaxlength>
+                  </nestpart>
+                  <nestpart hold="false" turnover="false" batch="" reduction="0.0000" refId="1" name="208 pasarela 1" reverse="false" profile="angle" group="" id="14" selected="true" partRefId="-1">
+                     <offset unit="mm">5.0000</offset>
+                     <rotation unit="deg">0.0000</rotation>
+                     <inverted>false</inverted>
+                     <status>Not Assigned</status>
+                     <destination/>
+                     <currentMaxlength unit="mm">1777.7900</currentMaxlength>
+                  </nestpart>
+                  <nestpart hold="false" turnover="false" batch="" reduction="0.0000" refId="2" name="205 pasarela 1" reverse="false" profile="angle" group="" id="13" selected="true" partRefId="-1">
+                     <offset unit="mm">3.0000</offset>
+                     <rotation unit="deg">0.0000</rotation>
+                     <inverted>false</inverted>
+                     <status>Not Assigned</status>
+                     <destination/>
+                     <currentMaxlength unit="mm">3150.0000</currentMaxlength>
+                  </nestpart>
+                  <nestpart hold="false" turnover="false" batch="" reduction="0.0000" refId="4" name="203 pasarela 1(2)" reverse="false" profile="angle" group="" id="11" selected="true" partRefId="-1">
+                     <offset unit="mm">3.0000</offset>
+                     <rotation unit="deg">0.0000</rotation>
+                     <inverted>false</inverted>
+                     <status>Not Assigned</status>
+                     <destination/>
+                     <currentMaxlength unit="mm">6780.0000</currentMaxlength>
+                  </nestpart>
+                  <nestpart hold="false" turnover="false" batch="" reduction="0.0000" refId="8" name="206 pasarela 2" reverse="false" profile="angle" group="" id="6" selected="true" partRefId="-1">
+                     <offset unit="mm">5.0000</offset>
+                     <rotation unit="deg">0.0000</rotation>
+                     <inverted>false</inverted>
+                     <status>Not Assigned</status>
+                     <destination/>
+                     <currentMaxlength unit="mm">850.0000</currentMaxlength>
+                  </nestpart>
+                  <nestpart hold="false" turnover="false" batch="" reduction="0.0000" refId="7" name="205 pasarela 2" reverse="false" profile="angle" group="" id="7" selected="true" partRefId="-1">
+                     <offset unit="mm">3.0000</offset>
+                     <rotation unit="deg">0.0000</rotation>
+                     <inverted>false</inverted>
+                     <status>Not Assigned</status>
+                     <destination/>
+                     <currentMaxlength unit="mm">850.0000</currentMaxlength>
+                  </nestpart>
+                  <nestpart hold="false" turnover="false" batch="" reduction="0.0000" refId="6" name="204 pasarela 2" reverse="false" profile="angle" group="" id="8" selected="true" partRefId="-1">
+                     <offset unit="mm">3.0000</offset>
+                     <rotation unit="deg">0.0000</rotation>
+                     <inverted>false</inverted>
+                     <status>Not Assigned</status>
+                     <destination/>
+                     <currentMaxlength unit="mm">850.0000</currentMaxlength>
+                  </nestpart>
+                  <nestpart hold="false" turnover="false" batch="" reduction="0.0000" refId="5" name="203 pasarela 2" reverse="false" profile="angle" group="" id="9" selected="true" partRefId="-1">
+                     <offset unit="mm">3.0000</offset>
+                     <rotation unit="deg">0.0000</rotation>
+                     <inverted>false</inverted>
+                     <status>Not Assigned</status>
+                     <destination/>
+                     <currentMaxlength unit="mm">850.0000</currentMaxlength>
+                  </nestpart>
+               </nestparts>
+               <stockitems>
+                  <angle hold="false" profilename="L120x12" restlabel="" name="Auto Stock" profile="angle" id="4" selected="true">
+                     <weblength unit="mm">120.0000</weblength>
+                     <webthickness unit="mm">12.0000</webthickness>
+                     <flangelength unit="mm">120.0000</flangelength>
+                     <flangethickness unit="mm">12.0000</flangethickness>
+                     <radius unit="mm">13.0000</radius>
+                     <handlingoffset unit="mm">0.0000</handlingoffset>
+                     <restlength unit="mm">11900.0000</restlength>
+                     <status>Not Assigned</status>
+                     <date/>
+                     <stocksource>auto_stock</stocksource>
+                     <remark/>
+                     <specialnestingtype/>
+                     <supplier/>
+                     <location/>
+                     <order>1</order>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">S235J2G3</materialname>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">11900.0000</maxlength>
+                  </angle>
+                  <angle hold="false" profilename="L120x12" restlabel="" name="Auto Stock(2)" profile="angle" id="5" selected="true">
+                     <weblength unit="mm">120.0000</weblength>
+                     <webthickness unit="mm">12.0000</webthickness>
+                     <flangelength unit="mm">120.0000</flangelength>
+                     <flangethickness unit="mm">12.0000</flangethickness>
+                     <radius unit="mm">13.0000</radius>
+                     <handlingoffset unit="mm">0.0000</handlingoffset>
+                     <restlength unit="mm">11900.0000</restlength>
+                     <status>Not Assigned</status>
+                     <date/>
+                     <stocksource>auto_stock</stocksource>
+                     <remark/>
+                     <specialnestingtype/>
+                     <supplier/>
+                     <location/>
+                     <order>2</order>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">S235J2G3</materialname>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">11900.0000</maxlength>
+                  </angle>
+                  <angle hold="false" profilename="L120x12" restlabel="" name="Auto Stock(3)" profile="angle" id="6" selected="true">
+                     <weblength unit="mm">120.0000</weblength>
+                     <webthickness unit="mm">12.0000</webthickness>
+                     <flangelength unit="mm">120.0000</flangelength>
+                     <flangethickness unit="mm">12.0000</flangethickness>
+                     <radius unit="mm">13.0000</radius>
+                     <handlingoffset unit="mm">0.0000</handlingoffset>
+                     <restlength unit="mm">11900.0000</restlength>
+                     <status>Not Assigned</status>
+                     <date/>
+                     <stocksource>auto_stock</stocksource>
+                     <remark/>
+                     <specialnestingtype/>
+                     <supplier/>
+                     <location/>
+                     <order>3</order>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">S235J2G3</materialname>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">11900.0000</maxlength>
+                  </angle>
+               </stockitems>
+            </job>
+         </jobs>
+      </nestproject>
+   </nestprojects>
+   <projects>
+      <project name="pasarela 1&amp;2" id="1">
+         <source type="MDI" name="ProCAM" version="2021_SR3"/>
+         <target targetname="-" targettype="-" targetid="-"/>
+         <assemblies>
+            <assembly name="L120X12" id="1">
+               <ncparts>
+                  <angle hold="false" profilename="L120x12" mirroredamount="0" name="208 pasarela 1" profile="angle" amount="1" id="1" selected="true">
+                     <weblength unit="mm">120.0000</weblength>
+                     <webthickness unit="mm">12.0000</webthickness>
+                     <flangelength unit="mm">120.0000</flangelength>
+                     <flangethickness unit="mm">12.0000</flangethickness>
+                     <radius unit="mm">13.0000</radius>
+                     <group/>
+                     <destination/>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">S235J2G3</materialname>
+                     <source type="DSTV" name="-" version="-"/>
+                     <target targetname="MTD Simplu Construct RPC 1200" targettype="RPC1200MKII" targetid="1620"/>
+                     <customView>false</customView>
+                     <customViewEye y="0.0000" x="0.0000" z="0.0000"/>
+                     <customViewCenter y="0.0000" x="0.0000" z="0.0000"/>
+                     <customViewUp y="0.0000" x="0.0000" z="0.0000"/>
+                     <length unit="mm">1777.7900</length>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">1777.7900</maxlength>
+                     <attachment></attachment>
+                     <ncdata>U1QKICAtCiAgMDAxCiAgMjA4CiAgMjA4CiAgUzIzNUoyRzMKICAxCiAgTDEyMFgxMgogIEwKICAgIDE3NzcuNzkKICAgICAxMjAuMDAKICAgICAxMjAuMDAKICAgICAgMTIuMDAKICAgICAgMTIuMDAKICAgICAgMTMuMDAKICAgICAgMjEuNjAKICAgICAgIDAuNDcKICAgICAgIDAuMDAKICAgICAgIDAuMDAKICAgICAgIDAuMDAKICAgICAgIDAuMDAKICAtCiAgLQogIC0KICAtClNJCiAgdiAgICAyLjAwdSAgICAyLjAwICAwLjAwICAxMHIyMDgKQk8KICB1ICAgODEwLjAwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgMTA2MC4wMHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMAogIHUgICA1NjAuMDB1ICAgIDQwLjAwICAyMC4wMCAgIDAuMDAKICB1ICAxMzEwLjAwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgIDMxMC4wMHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMAogIHUgIDE1NjAuMDB1ICAgIDQwLjAwICAyMC4wMCAgIDAuMDAKICB1ICAgIDYwLjAwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCkVO</ncdata>
+                     <nccuts>
+                        <nccut refId="-1" name="(1)Bottom_Endcut" id="1">
+                           <side>Start</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(1)Back_Endcut" id="2">
+                           <side>Start</side>
+                           <plane>Back</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(2)Bottom_Drillhole" id="3">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(3)Bottom_Drillhole" id="4">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(4)Bottom_Drillhole" id="5">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(5)Bottom_Drillhole" id="6">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(6)Bottom_Drillhole" id="7">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(7)Bottom_Drillhole" id="8">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(8)Bottom_Drillhole" id="9">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(9)Bottom_Endcut" id="10">
+                           <side>End</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(9)Back_Endcut" id="11">
+                           <side>End</side>
+                           <plane>Back</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                     </nccuts>
+                     <ncmarktexts>
+                        <ncmarktext refId="-1" name="text" id="1">
+                           <side>Intermediate</side>
+                           <text>208</text>
+                           <dstv_order>0</dstv_order>
+                           <mark_mode>Mark</mark_mode>
+                           <textAutoPlacement>true</textAutoPlacement>
+                           <height unit="mm">10.0000</height>
+                           <xOffset unit="mm">0.0000</xOffset>
+                           <qOffset unit="mm">0.0000</qOffset>
+                           <angleOffset unit="deg">0.0000</angleOffset>
+                        </ncmarktext>
+                     </ncmarktexts>
+                  </angle>
+                  <angle hold="false" profilename="L120x12" mirroredamount="0" name="205 pasarela 1" profile="angle" amount="1" id="2" selected="true">
+                     <weblength unit="mm">120.0000</weblength>
+                     <webthickness unit="mm">12.0000</webthickness>
+                     <flangelength unit="mm">120.0000</flangelength>
+                     <flangethickness unit="mm">12.0000</flangethickness>
+                     <radius unit="mm">13.0000</radius>
+                     <group/>
+                     <destination/>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">S235J2G3</materialname>
+                     <source type="DSTV" name="-" version="-"/>
+                     <target targetname="MTD Simplu Construct RPC 1200" targettype="RPC1200MKII" targetid="1620"/>
+                     <customView>false</customView>
+                     <customViewEye y="0.0000" x="0.0000" z="0.0000"/>
+                     <customViewCenter y="0.0000" x="0.0000" z="0.0000"/>
+                     <customViewUp y="0.0000" x="0.0000" z="0.0000"/>
+                     <length unit="mm">3150.0000</length>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">3150.0000</maxlength>
+                     <attachment></attachment>
+                     <ncdata>U1QKICAtCiAgMDAxCiAgMjA1CiAgMjA1CiAgUzIzNUoyRzMKICAxCiAgTDEyMFgxMgogIEwKICAgIDMxNTAuMDAKICAgICAxMjAuMDAKICAgICAxMjAuMDAKICAgICAgMTIuMDAKICAgICAgMTIuMDAKICAgICAgMTMuMDAKICAgICAgMjEuNjAKICAgICAgIDAuNDcKICAgICAgIDAuMDAKICAgICAgIDAuMDAKICAgICAgIDAuMDAKICAgICAgIDAuMDAKICAtCiAgLQogIC0KICAtClNJCiAgdiAgICAyLjAwdSAgICAyLjAwICAwLjAwICAxMHIyMDUKQk8KICB1ICAxNTkwLjAwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgMTg0MC4wMHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMAogIHUgIDEzNDAuMDB1ICAgIDQwLjAwICAyMC4wMCAgIDAuMDAKICB1ICAyMDkwLjAwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgMTA5MC4wMHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMAogIHUgIDIzNDAuMDB1ICAgIDQwLjAwICAyMC4wMCAgIDAuMDAKICB1ICAgODQwLjAwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgMjU5MC4wMHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMAogIHUgICA1OTAuMDB1ICAgIDQwLjAwICAyMC4wMCAgIDAuMDAKICB1ICAyODQwLjAwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgIDM0MC4wMHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMAogIHUgIDMwOTAuMDB1ICAgIDQwLjAwICAyMC4wMCAgIDAuMDAKICB1ICAgIDkwLjAwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCkVO</ncdata>
+                     <nccuts>
+                        <nccut refId="-1" name="(1)Bottom_Endcut" id="12">
+                           <side>Start</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(1)Back_Endcut" id="13">
+                           <side>Start</side>
+                           <plane>Back</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(2)Bottom_Drillhole" id="14">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(3)Bottom_Drillhole" id="15">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(4)Bottom_Drillhole" id="16">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(5)Bottom_Drillhole" id="17">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(6)Bottom_Drillhole" id="18">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(7)Bottom_Drillhole" id="19">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(8)Bottom_Drillhole" id="20">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(9)Bottom_Drillhole" id="21">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(10)Bottom_Drillhole" id="22">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(11)Bottom_Drillhole" id="23">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(12)Bottom_Drillhole" id="24">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(13)Bottom_Drillhole" id="25">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(14)Bottom_Drillhole" id="26">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(15)Bottom_Endcut" id="27">
+                           <side>End</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(15)Back_Endcut" id="28">
+                           <side>End</side>
+                           <plane>Back</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                     </nccuts>
+                     <ncmarktexts>
+                        <ncmarktext refId="-1" name="text" id="2">
+                           <side>Intermediate</side>
+                           <text>205</text>
+                           <dstv_order>0</dstv_order>
+                           <mark_mode>Mark</mark_mode>
+                           <textAutoPlacement>true</textAutoPlacement>
+                           <height unit="mm">10.0000</height>
+                           <xOffset unit="mm">0.0000</xOffset>
+                           <qOffset unit="mm">0.0000</qOffset>
+                           <angleOffset unit="deg">0.0000</angleOffset>
+                        </ncmarktext>
+                     </ncmarktexts>
+                  </angle>
+                  <angle hold="false" profilename="L120x12" mirroredamount="0" name="204 pasarela 1" profile="angle" amount="1" id="3" selected="true">
+                     <weblength unit="mm">120.0000</weblength>
+                     <webthickness unit="mm">12.0000</webthickness>
+                     <flangelength unit="mm">120.0000</flangelength>
+                     <flangethickness unit="mm">12.0000</flangethickness>
+                     <radius unit="mm">13.0000</radius>
+                     <group/>
+                     <destination/>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">S235J2G3</materialname>
+                     <source type="DSTV" name="-" version="-"/>
+                     <target targetname="MTD Simplu Construct RPC 1200" targettype="RPC1200MKII" targetid="1620"/>
+                     <customView>false</customView>
+                     <customViewEye y="0.0000" x="0.0000" z="0.0000"/>
+                     <customViewCenter y="0.0000" x="0.0000" z="0.0000"/>
+                     <customViewUp y="0.0000" x="0.0000" z="0.0000"/>
+                     <length unit="mm">4990.0000</length>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">4990.0000</maxlength>
+                     <attachment></attachment>
+                     <ncdata>U1QKICAtCiAgMDAxCiAgMjA0CiAgMjA0CiAgUzIzNUoyRzMKICAxCiAgTDEyMFgxMgogIEwKICAgIDQ5OTAuMDAKICAgICAxMjAuMDAKICAgICAxMjAuMDAKICAgICAgMTIuMDAKICAgICAgMTIuMDAKICAgICAgMTMuMDAKICAgICAgMjEuNjAKICAgICAgIDAuNDcKICAgICAgIDAuMDAKICAgICAgIDAuMDAKICAgICAgIDAuMDAKICAgICAgIDAuMDAKICAtCiAgLQogIC0KICAtClNJCiAgdiAgICAyLjAwdSAgICAyLjAwICAwLjAwICAxMHIyMDQKQk8KICB1ICAyNDMwLjAwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgMjY4MC4wMHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMAogIHUgIDIxODAuMDB1ICAgIDQwLjAwICAyMC4wMCAgIDAuMDAKICB1ICAyOTMwLjAwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgMTkzMC4wMHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMAogIHUgIDMxODAuMDB1ICAgIDQwLjAwICAyMC4wMCAgIDAuMDAKICB1ICAxNjgwLjAwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgMzQzMC4wMHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMAogIHUgIDE0MzAuMDB1ICAgIDQwLjAwICAyMC4wMCAgIDAuMDAKICB1ICAzNjgwLjAwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgMTE4MC4wMHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMAogIHUgIDM5MzAuMDB1ICAgIDQwLjAwICAyMC4wMCAgIDAuMDAKICB1ICAgOTMwLjAwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgNDE4MC4wMHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMAogIHUgICA2ODAuMDB1ICAgIDQwLjAwICAyMC4wMCAgIDAuMDAKICB1ICA0NDMwLjAwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgIDQzMC4wMHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMAogIHUgIDQ2ODAuMDB1ICAgIDQwLjAwICAyMC4wMCAgIDAuMDAKICB1ICAgMTgwLjAwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgNDkzMC4wMHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMApFTg==</ncdata>
+                     <nccuts>
+                        <nccut refId="-1" name="(1)Bottom_Endcut" id="29">
+                           <side>Start</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(1)Back_Endcut" id="30">
+                           <side>Start</side>
+                           <plane>Back</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(2)Bottom_Drillhole" id="31">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(3)Bottom_Drillhole" id="32">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(4)Bottom_Drillhole" id="33">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(5)Bottom_Drillhole" id="34">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(6)Bottom_Drillhole" id="35">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(7)Bottom_Drillhole" id="36">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(8)Bottom_Drillhole" id="37">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(9)Bottom_Drillhole" id="38">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(10)Bottom_Drillhole" id="39">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(11)Bottom_Drillhole" id="40">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(12)Bottom_Drillhole" id="41">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(13)Bottom_Drillhole" id="42">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(14)Bottom_Drillhole" id="43">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(15)Bottom_Drillhole" id="44">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(16)Bottom_Drillhole" id="45">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(17)Bottom_Drillhole" id="46">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(18)Bottom_Drillhole" id="47">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(19)Bottom_Drillhole" id="48">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(20)Bottom_Drillhole" id="49">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(21)Bottom_Drillhole" id="50">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(22)Bottom_Endcut" id="51">
+                           <side>End</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(22)Back_Endcut" id="52">
+                           <side>End</side>
+                           <plane>Back</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                     </nccuts>
+                     <ncmarktexts>
+                        <ncmarktext refId="-1" name="text" id="3">
+                           <side>Intermediate</side>
+                           <text>204</text>
+                           <dstv_order>0</dstv_order>
+                           <mark_mode>Mark</mark_mode>
+                           <textAutoPlacement>true</textAutoPlacement>
+                           <height unit="mm">10.0000</height>
+                           <xOffset unit="mm">0.0000</xOffset>
+                           <qOffset unit="mm">0.0000</qOffset>
+                           <angleOffset unit="deg">0.0000</angleOffset>
+                        </ncmarktext>
+                     </ncmarktexts>
+                  </angle>
+                  <angle hold="false" profilename="L120x12" mirroredamount="0" name="203 pasarela 1" profile="angle" amount="2" id="4" selected="true">
+                     <weblength unit="mm">120.0000</weblength>
+                     <webthickness unit="mm">12.0000</webthickness>
+                     <flangelength unit="mm">120.0000</flangelength>
+                     <flangethickness unit="mm">12.0000</flangethickness>
+                     <radius unit="mm">13.0000</radius>
+                     <group/>
+                     <destination/>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">S235J2G3</materialname>
+                     <source type="DSTV" name="-" version="-"/>
+                     <target targetname="MTD Simplu Construct RPC 1200" targettype="RPC1200MKII" targetid="1620"/>
+                     <customView>false</customView>
+                     <customViewEye y="0.0000" x="0.0000" z="0.0000"/>
+                     <customViewCenter y="0.0000" x="0.0000" z="0.0000"/>
+                     <customViewUp y="0.0000" x="0.0000" z="0.0000"/>
+                     <length unit="mm">6780.0000</length>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">6780.0000</maxlength>
+                     <attachment></attachment>
+                     <ncdata>U1QKICAtCiAgMDAxCiAgMjAzCiAgMjAzCiAgUzIzNUoyRzMKICAyCiAgTDEyMFgxMgogIEwKICAgIDY3ODAuMDAKICAgICAxMjAuMDAKICAgICAxMjAuMDAKICAgICAgMTIuMDAKICAgICAgMTIuMDAKICAgICAgMTMuMDAKICAgICAgMjEuNjAKICAgICAgIDAuNDcKICAgICAgIDAuMDAKICAgICAgIDAuMDAKICAgICAgIDAuMDAKICAgICAgIDAuMDAKICAtCiAgLQogIC0KICAtClNJCiAgdiAgICAyLjAwdSAgICAyLjAwICAwLjAwICAxMHIyMDMKQk8KICB1ICAzNDMwLjQwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgMzE3OS42MHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMAogIHUgIDM2ODEuMjB1ICAgIDQwLjAwICAyMC4wMCAgIDAuMDAKICB1ICAyOTI4LjgwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgMzkzMi4wMHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMAogIHUgIDI2NzguMDB1ICAgIDQwLjAwICAyMC4wMCAgIDAuMDAKICB1ICA0MTgyLjgwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgMjQyNy4yMHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMAogIHUgIDQ0MzMuNjB1ICAgIDQwLjAwICAyMC4wMCAgIDAuMDAKICB1ICAyMTc2LjQwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgNDY4NC40MHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMAogIHUgIDE5MjUuNjB1ICAgIDQwLjAwICAyMC4wMCAgIDAuMDAKICB1ICA0OTM1LjIwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgMTY3NC44MHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMAogIHUgIDUxODYuMDB1ICAgIDQwLjAwICAyMC4wMCAgIDAuMDAKICB1ICAxNDI0LjAwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgNTQzNi44MHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMAogIHUgIDExNzMuMjB1ICAgIDQwLjAwICAyMC4wMCAgIDAuMDAKICB1ICA1Njg3LjYwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgIDkyMi40MHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMAogIHUgIDU5MzguNDB1ICAgIDQwLjAwICAyMC4wMCAgIDAuMDAKICB1ICAgNjcxLjYwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgNjE4OS4yMHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMAogIHUgICA0MjAuODB1ICAgIDQwLjAwICAyMC4wMCAgIDAuMDAKICB1ICA2NDQwLjAwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgIDE3MC4wMHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMAogIHUgIDY2OTAuODB1ICAgIDQwLjAwICAyMC4wMCAgIDAuMDAKRU4=</ncdata>
+                     <nccuts>
+                        <nccut refId="-1" name="(1)Bottom_Endcut" id="53">
+                           <side>Start</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(1)Back_Endcut" id="54">
+                           <side>Start</side>
+                           <plane>Back</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(2)Bottom_Drillhole" id="55">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(3)Bottom_Drillhole" id="56">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(4)Bottom_Drillhole" id="57">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(5)Bottom_Drillhole" id="58">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(6)Bottom_Drillhole" id="59">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(7)Bottom_Drillhole" id="60">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(8)Bottom_Drillhole" id="61">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(9)Bottom_Drillhole" id="62">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(10)Bottom_Drillhole" id="63">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(11)Bottom_Drillhole" id="64">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(12)Bottom_Drillhole" id="65">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(13)Bottom_Drillhole" id="66">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(14)Bottom_Drillhole" id="67">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(15)Bottom_Drillhole" id="68">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(16)Bottom_Drillhole" id="69">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(17)Bottom_Drillhole" id="70">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(18)Bottom_Drillhole" id="71">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(19)Bottom_Drillhole" id="72">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(20)Bottom_Drillhole" id="73">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(21)Bottom_Drillhole" id="74">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(22)Bottom_Drillhole" id="75">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(23)Bottom_Drillhole" id="76">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(24)Bottom_Drillhole" id="77">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(25)Bottom_Drillhole" id="78">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(26)Bottom_Drillhole" id="79">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(27)Bottom_Drillhole" id="80">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(28)Bottom_Drillhole" id="81">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(29)Bottom_Endcut" id="82">
+                           <side>End</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(29)Back_Endcut" id="83">
+                           <side>End</side>
+                           <plane>Back</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                     </nccuts>
+                     <ncmarktexts>
+                        <ncmarktext refId="-1" name="text" id="4">
+                           <side>Intermediate</side>
+                           <text>203</text>
+                           <dstv_order>0</dstv_order>
+                           <mark_mode>Mark</mark_mode>
+                           <textAutoPlacement>true</textAutoPlacement>
+                           <height unit="mm">10.0000</height>
+                           <xOffset unit="mm">0.0000</xOffset>
+                           <qOffset unit="mm">0.0000</qOffset>
+                           <angleOffset unit="deg">0.0000</angleOffset>
+                        </ncmarktext>
+                     </ncmarktexts>
+                  </angle>
+                  <angle hold="false" profilename="L120x12" mirroredamount="0" name="203 pasarela 2" profile="angle" amount="1" id="5" selected="true">
+                     <weblength unit="mm">120.0000</weblength>
+                     <webthickness unit="mm">12.0000</webthickness>
+                     <flangelength unit="mm">120.0000</flangelength>
+                     <flangethickness unit="mm">12.0000</flangethickness>
+                     <radius unit="mm">13.0000</radius>
+                     <group/>
+                     <destination/>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">S235J2G3</materialname>
+                     <source type="DSTV" name="-" version="-"/>
+                     <target targetname="MTD Simplu Construct RPC 1200" targettype="RPC1200MKII" targetid="1620"/>
+                     <customView>false</customView>
+                     <customViewEye y="0.0000" x="0.0000" z="0.0000"/>
+                     <customViewCenter y="0.0000" x="0.0000" z="0.0000"/>
+                     <customViewUp y="0.0000" x="0.0000" z="0.0000"/>
+                     <length unit="mm">850.0000</length>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">850.0000</maxlength>
+                     <attachment></attachment>
+                     <ncdata>U1QKICAtCiAgMDAxCiAgMjAzCiAgMjAzCiAgUzIzNUoyRzMKICAxCiAgTDEyMFgxMgogIEwKICAgICA4NTAuMDAKICAgICAxMjAuMDAKICAgICAxMjAuMDAKICAgICAgMTIuMDAKICAgICAgMTIuMDAKICAgICAgMTMuMDAKICAgICAgMjEuNjAKICAgICAgIDAuNDcKICAgICAgIDAuMDAKICAgICAgIDAuMDAKICAgICAgIDAuMDAKICAgICAgIDAuMDAKICAtCiAgLQogIC0KICAtClNJCiAgdiAgICAyLjAwdSAgICAyLjAwICAwLjAwICAxMHIyMDMKQk8KICB1ICAgIDQwLjAwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgIDI5MC4wMHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMAogIHUgICA1NDAuMDB1ICAgIDQwLjAwICAyMC4wMCAgIDAuMDAKICB1ICAgNzkwLjAwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCkVO</ncdata>
+                     <nccuts>
+                        <nccut refId="-1" name="(1)Bottom_Endcut" id="84">
+                           <side>Start</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(1)Back_Endcut" id="85">
+                           <side>Start</side>
+                           <plane>Back</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(2)Bottom_Drillhole" id="86">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(3)Bottom_Drillhole" id="87">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(4)Bottom_Drillhole" id="88">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(5)Bottom_Drillhole" id="89">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(6)Bottom_Endcut" id="90">
+                           <side>End</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(6)Back_Endcut" id="91">
+                           <side>End</side>
+                           <plane>Back</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                     </nccuts>
+                     <ncmarktexts>
+                        <ncmarktext refId="-1" name="text" id="5">
+                           <side>Intermediate</side>
+                           <text>203</text>
+                           <dstv_order>0</dstv_order>
+                           <mark_mode>Mark</mark_mode>
+                           <textAutoPlacement>true</textAutoPlacement>
+                           <height unit="mm">10.0000</height>
+                           <xOffset unit="mm">0.0000</xOffset>
+                           <qOffset unit="mm">0.0000</qOffset>
+                           <angleOffset unit="deg">0.0000</angleOffset>
+                        </ncmarktext>
+                     </ncmarktexts>
+                  </angle>
+                  <angle hold="false" profilename="L120x12" mirroredamount="0" name="204 pasarela 2" profile="angle" amount="1" id="6" selected="true">
+                     <weblength unit="mm">120.0000</weblength>
+                     <webthickness unit="mm">12.0000</webthickness>
+                     <flangelength unit="mm">120.0000</flangelength>
+                     <flangethickness unit="mm">12.0000</flangethickness>
+                     <radius unit="mm">13.0000</radius>
+                     <group/>
+                     <destination/>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">S235J2G3</materialname>
+                     <source type="DSTV" name="-" version="-"/>
+                     <target targetname="MTD Simplu Construct RPC 1200" targettype="RPC1200MKII" targetid="1620"/>
+                     <customView>false</customView>
+                     <customViewEye y="0.0000" x="0.0000" z="0.0000"/>
+                     <customViewCenter y="0.0000" x="0.0000" z="0.0000"/>
+                     <customViewUp y="0.0000" x="0.0000" z="0.0000"/>
+                     <length unit="mm">850.0000</length>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">850.0000</maxlength>
+                     <attachment></attachment>
+                     <ncdata>U1QKICAtCiAgMDAxCiAgMjA0CiAgMjA0CiAgUzIzNUoyRzMKICAxCiAgTDEyMFgxMgogIEwKICAgICA4NTAuMDAKICAgICAxMjAuMDAKICAgICAxMjAuMDAKICAgICAgMTIuMDAKICAgICAgMTIuMDAKICAgICAgMTMuMDAKICAgICAgMjEuNjAKICAgICAgIDAuNDcKICAgICAgIDAuMDAKICAgICAgIDAuMDAKICAgICAgIDAuMDAKICAgICAgIDAuMDAKICAtCiAgLQogIC0KICAtClNJCiAgdiAgICAyLjAwdSAgICAyLjAwICAwLjAwICAxMHIyMDQKQk8KICB1ICAgODEwLjAwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgIDU2MC4wMHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMAogIHUgICAzMTAuMDB1ICAgIDQwLjAwICAyMC4wMCAgIDAuMDAKICB1ICAgIDYwLjAwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCkVO</ncdata>
+                     <nccuts>
+                        <nccut refId="-1" name="(1)Bottom_Endcut" id="92">
+                           <side>Start</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(1)Back_Endcut" id="93">
+                           <side>Start</side>
+                           <plane>Back</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(2)Bottom_Drillhole" id="94">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(3)Bottom_Drillhole" id="95">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(4)Bottom_Drillhole" id="96">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(5)Bottom_Drillhole" id="97">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(6)Bottom_Endcut" id="98">
+                           <side>End</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(6)Back_Endcut" id="99">
+                           <side>End</side>
+                           <plane>Back</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                     </nccuts>
+                     <ncmarktexts>
+                        <ncmarktext refId="-1" name="text" id="6">
+                           <side>Intermediate</side>
+                           <text>204</text>
+                           <dstv_order>0</dstv_order>
+                           <mark_mode>Mark</mark_mode>
+                           <textAutoPlacement>true</textAutoPlacement>
+                           <height unit="mm">10.0000</height>
+                           <xOffset unit="mm">0.0000</xOffset>
+                           <qOffset unit="mm">0.0000</qOffset>
+                           <angleOffset unit="deg">0.0000</angleOffset>
+                        </ncmarktext>
+                     </ncmarktexts>
+                  </angle>
+                  <angle hold="false" profilename="L120x12" mirroredamount="0" name="205 pasarela 2" profile="angle" amount="1" id="7" selected="true">
+                     <weblength unit="mm">120.0000</weblength>
+                     <webthickness unit="mm">12.0000</webthickness>
+                     <flangelength unit="mm">120.0000</flangelength>
+                     <flangethickness unit="mm">12.0000</flangethickness>
+                     <radius unit="mm">13.0000</radius>
+                     <group/>
+                     <destination/>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">S235J2G3</materialname>
+                     <source type="DSTV" name="-" version="-"/>
+                     <target targetname="MTD Simplu Construct RPC 1200" targettype="RPC1200MKII" targetid="1620"/>
+                     <customView>false</customView>
+                     <customViewEye y="0.0000" x="0.0000" z="0.0000"/>
+                     <customViewCenter y="0.0000" x="0.0000" z="0.0000"/>
+                     <customViewUp y="0.0000" x="0.0000" z="0.0000"/>
+                     <length unit="mm">850.0000</length>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">850.0000</maxlength>
+                     <attachment></attachment>
+                     <ncdata>U1QKICAtCiAgMDAxCiAgMjA1CiAgMjA1CiAgUzIzNUoyRzMKICAxCiAgTDEyMFgxMgogIEwKICAgICA4NTAuMDAKICAgICAxMjAuMDAKICAgICAxMjAuMDAKICAgICAgMTIuMDAKICAgICAgMTIuMDAKICAgICAgMTMuMDAKICAgICAgMjEuNjAKICAgICAgIDAuNDcKICAgICAgIDAuMDAKICAgICAgIDAuMDAKICAgICAgIDAuMDAKICAgICAgIDAuMDAKICAtCiAgLQogIC0KICAtClNJCiAgdiAgICAyLjAwdSAgICAyLjAwICAwLjAwICAxMHIyMDUKQk8KICB1ICAgNTQwLjAwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgIDI5MC4wMHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMAogIHUgICA3OTAuMDB1ICAgIDQwLjAwICAyMC4wMCAgIDAuMDAKICB1ICAgIDQwLjAwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCkVO</ncdata>
+                     <nccuts>
+                        <nccut refId="-1" name="(1)Bottom_Endcut" id="100">
+                           <side>Start</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(1)Back_Endcut" id="101">
+                           <side>Start</side>
+                           <plane>Back</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(2)Bottom_Drillhole" id="102">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(3)Bottom_Drillhole" id="103">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(4)Bottom_Drillhole" id="104">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(5)Bottom_Drillhole" id="105">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(6)Bottom_Endcut" id="106">
+                           <side>End</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(6)Back_Endcut" id="107">
+                           <side>End</side>
+                           <plane>Back</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                     </nccuts>
+                     <ncmarktexts>
+                        <ncmarktext refId="-1" name="text" id="7">
+                           <side>Intermediate</side>
+                           <text>205</text>
+                           <dstv_order>0</dstv_order>
+                           <mark_mode>Mark</mark_mode>
+                           <textAutoPlacement>true</textAutoPlacement>
+                           <height unit="mm">10.0000</height>
+                           <xOffset unit="mm">0.0000</xOffset>
+                           <qOffset unit="mm">0.0000</qOffset>
+                           <angleOffset unit="deg">0.0000</angleOffset>
+                        </ncmarktext>
+                     </ncmarktexts>
+                  </angle>
+                  <angle hold="false" profilename="L120x12" mirroredamount="0" name="206 pasarela 2" profile="angle" amount="1" id="8" selected="true">
+                     <weblength unit="mm">120.0000</weblength>
+                     <webthickness unit="mm">12.0000</webthickness>
+                     <flangelength unit="mm">120.0000</flangelength>
+                     <flangethickness unit="mm">12.0000</flangethickness>
+                     <radius unit="mm">13.0000</radius>
+                     <group/>
+                     <destination/>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">S235J2G3</materialname>
+                     <source type="DSTV" name="-" version="-"/>
+                     <target targetname="MTD Simplu Construct RPC 1200" targettype="RPC1200MKII" targetid="1620"/>
+                     <customView>false</customView>
+                     <customViewEye y="0.0000" x="0.0000" z="0.0000"/>
+                     <customViewCenter y="0.0000" x="0.0000" z="0.0000"/>
+                     <customViewUp y="0.0000" x="0.0000" z="0.0000"/>
+                     <length unit="mm">850.0000</length>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">850.0000</maxlength>
+                     <attachment></attachment>
+                     <ncdata>U1QKICAtCiAgMDAxCiAgMjA2CiAgMjA2CiAgUzIzNUoyRzMKICAxCiAgTDEyMFgxMgogIEwKICAgICA4NTAuMDAKICAgICAxMjAuMDAKICAgICAxMjAuMDAKICAgICAgMTIuMDAKICAgICAgMTIuMDAKICAgICAgMTMuMDAKICAgICAgMjEuNjAKICAgICAgIDAuNDcKICAgICAgIDAuMDAKICAgICAgIDAuMDAKICAgICAgIDAuMDAKICAgICAgIDAuMDAKICAtCiAgLQogIC0KICAtClNJCiAgdiAgICAyLjAwdSAgICAyLjAwICAwLjAwICAxMHIyMDYKQk8KICB1ICAgMzEwLjAwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCiAgdSAgIDU2MC4wMHUgICAgNDAuMDAgIDIwLjAwICAgMC4wMAogIHUgICAgNjAuMDB1ICAgIDQwLjAwICAyMC4wMCAgIDAuMDAKICB1ICAgODEwLjAwdSAgICA0MC4wMCAgMjAuMDAgICAwLjAwCkVO</ncdata>
+                     <nccuts>
+                        <nccut refId="-1" name="(1)Bottom_Endcut" id="108">
+                           <side>Start</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(1)Back_Endcut" id="109">
+                           <side>Start</side>
+                           <plane>Back</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(2)Bottom_Drillhole" id="110">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(3)Bottom_Drillhole" id="111">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(4)Bottom_Drillhole" id="112">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(5)Bottom_Drillhole" id="113">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">1.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(6)Bottom_Endcut" id="114">
+                           <side>End</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" name="(6)Back_Endcut" id="115">
+                           <side>End</side>
+                           <plane>Back</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                     </nccuts>
+                     <ncmarktexts>
+                        <ncmarktext refId="-1" name="text" id="8">
+                           <side>Intermediate</side>
+                           <text>206</text>
+                           <dstv_order>0</dstv_order>
+                           <mark_mode>Mark</mark_mode>
+                           <textAutoPlacement>true</textAutoPlacement>
+                           <height unit="mm">10.0000</height>
+                           <xOffset unit="mm">0.0000</xOffset>
+                           <qOffset unit="mm">0.0000</qOffset>
+                           <angleOffset unit="deg">0.0000</angleOffset>
+                        </ncmarktext>
+                     </ncmarktexts>
+                  </angle>
+               </ncparts>
+            </assembly>
+         </assemblies>
+         <cangroups/>
+      </project>
+   </projects>
+</dnc>

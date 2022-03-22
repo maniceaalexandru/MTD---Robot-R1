@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This standard is developed by HGG Profiling Equipment software development.
+Name: ProCAM XML
+Year: 2011
+Internet: www.hgg.nl
+Address: P.O. Box 66
+1775 ZH Middenmeer
+The Netherlands
+info@hgg.nl
+-->
+<dnc xmlns="http://www.hgg.nl/schemas/procam/v6.0" version="6.0">
+   <procam_version>2021.3.6.22</procam_version>
+   <origin_paths>C:/Users/user/Desktop/Foerch - Structura panouri solare (18-002-2022)/Foerch - Structura panouri solare (18-002-2022)/NC_files/DSTV_Profiles/4009.nc1;C:/Users/user/Desktop/Foerch - Structura panouri solare (18-002-2022)/Foerch - Structura panouri solare (18-002-2022)/NC_files/DSTV_Profiles/4007.nc1;C:/Users/user/Desktop/Foerch - Structura panouri solare (18-002-2022)/Foerch - Structura panouri solare (18-002-2022)/NC_files/DSTV_Profiles/4006.nc1;C:/Users/user/Desktop/Foerch - Structura panouri solare (18-002-2022)/Foerch - Structura panouri solare (18-002-2022)/NC_files/DSTV_Profiles/4001.nc1</origin_paths>
+   <nestprojects>
+      <nestproject id="1" name="Foerch - panouri solare">
+         <jobs>
+            <job id="1" name="IPE200">
+               <target targetid="1620" targetname="MTD Simplu Construct RPC 1200" targettype="RPC1200MKII"/>
+               <nestparts>
+                  <nestpart selected="true" refId="3" group="" reduction="-20.0000" reverse="false" batch="" turnover="false" profile="h_beam" id="5" name="4006(1)" hold="false" partRefId="-1">
+                     <offset unit="mm">3.0000</offset>
+                     <rotation unit="deg">0.0000</rotation>
+                     <inverted>false</inverted>
+                     <status>Not Assigned</status>
+                     <destination/>
+                     <currentMaxlength unit="mm">12000.0000</currentMaxlength>
+                  </nestpart>
+                  <nestpart selected="true" refId="3" group="" reduction="-20.0000" reverse="false" batch="" turnover="false" profile="h_beam" id="6" name="4006(2)" hold="false" partRefId="-1">
+                     <offset unit="mm">3.0000</offset>
+                     <rotation unit="deg">0.0000</rotation>
+                     <inverted>false</inverted>
+                     <status>Not Assigned</status>
+                     <destination/>
+                     <currentMaxlength unit="mm">12000.0000</currentMaxlength>
+                  </nestpart>
+                  <nestpart selected="true" refId="3" group="" reduction="-20.0000" reverse="false" batch="" turnover="false" profile="h_beam" id="7" name="4006(3)" hold="false" partRefId="-1">
+                     <offset unit="mm">3.0000</offset>
+                     <rotation unit="deg">0.0000</rotation>
+                     <inverted>false</inverted>
+                     <status>Not Assigned</status>
+                     <destination/>
+                     <currentMaxlength unit="mm">12000.0000</currentMaxlength>
+                  </nestpart>
+                  <nestpart selected="true" refId="3" group="" reduction="-20.0000" reverse="false" batch="" turnover="false" profile="h_beam" id="8" name="4006(4)" hold="false" partRefId="-1">
+                     <offset unit="mm">3.0000</offset>
+                     <rotation unit="deg">0.0000</rotation>
+                     <inverted>false</inverted>
+                     <status>Not Assigned</status>
+                     <destination/>
+                     <currentMaxlength unit="mm">12000.0000</currentMaxlength>
+                  </nestpart>
+               </nestparts>
+               <stockitems>
+                  <h_beam selected="true" profile="h_beam" id="1" name="Auto Stock" restlabel="" hold="false" profilename="IPE200">
+                     <weblength unit="mm">200.0000</weblength>
+                     <webthickness unit="mm">5.6000</webthickness>
+                     <flangelength unit="mm">100.0000</flangelength>
+                     <flangethickness unit="mm">8.5000</flangethickness>
+                     <radius unit="mm">12.0000</radius>
+                     <flangetaperratio>0.0000</flangetaperratio>
+                     <handlingoffset unit="mm">0.0000</handlingoffset>
+                     <restlength unit="mm">737.0000</restlength>
+                     <status>Assigned</status>
+                     <date/>
+                     <stocksource>auto_stock</stocksource>
+                     <remark/>
+                     <specialnestingtype>Reduce Part Spacing</specialnestingtype>
+                     <supplier/>
+                     <location/>
+                     <order>1</order>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">S355J2</materialname>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">11900.0000</maxlength>
+                     <nestparts>
+                        <nestpart selected="true" refId="2" group="" reduction="-20.0000" reverse="false" batch="" turnover="false" profile="h_beam" id="9" name="4007(1)" hold="false" partRefId="-1">
+                           <offset unit="mm">10.0000</offset>
+                           <rotation unit="deg">0.0000</rotation>
+                           <inverted>false</inverted>
+                           <status>Assigned</status>
+                           <destination/>
+                           <currentMaxlength unit="mm">1480.0000</currentMaxlength>
+                        </nestpart>
+                        <nestpart selected="true" refId="4" group="" reduction="-20.0000" reverse="false" batch="" turnover="false" profile="h_beam" id="1" name="4001(1)" hold="false" partRefId="-1">
+                           <offset unit="mm">3.0000</offset>
+                           <rotation unit="deg">0.0000</rotation>
+                           <inverted>false</inverted>
+                           <status>Assigned</status>
+                           <destination/>
+                           <currentMaxlength unit="mm">9710.0000</currentMaxlength>
+                        </nestpart>
+                     </nestparts>
+                  </h_beam>
+                  <h_beam selected="true" profile="h_beam" id="2" name="Auto Stock(2)" restlabel="" hold="false" profilename="IPE200">
+                     <weblength unit="mm">200.0000</weblength>
+                     <webthickness unit="mm">5.6000</webthickness>
+                     <flangelength unit="mm">100.0000</flangelength>
+                     <flangethickness unit="mm">8.5000</flangethickness>
+                     <radius unit="mm">12.0000</radius>
+                     <flangetaperratio>0.0000</flangetaperratio>
+                     <handlingoffset unit="mm">0.0000</handlingoffset>
+                     <restlength unit="mm">737.0000</restlength>
+                     <status>Assigned</status>
+                     <date/>
+                     <stocksource>auto_stock</stocksource>
+                     <remark/>
+                     <specialnestingtype>Reduce Part Spacing</specialnestingtype>
+                     <supplier/>
+                     <location/>
+                     <order>2</order>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">S355J2</materialname>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">11900.0000</maxlength>
+                     <nestparts>
+                        <nestpart selected="true" refId="2" group="" reduction="-20.0000" reverse="false" batch="" turnover="false" profile="h_beam" id="10" name="4007(2)" hold="false" partRefId="-1">
+                           <offset unit="mm">10.0000</offset>
+                           <rotation unit="deg">0.0000</rotation>
+                           <inverted>false</inverted>
+                           <status>Assigned</status>
+                           <destination/>
+                           <currentMaxlength unit="mm">1480.0000</currentMaxlength>
+                        </nestpart>
+                        <nestpart selected="true" refId="4" group="" reduction="-20.0000" reverse="false" batch="" turnover="false" profile="h_beam" id="2" name="4001(2)" hold="false" partRefId="-1">
+                           <offset unit="mm">3.0000</offset>
+                           <rotation unit="deg">0.0000</rotation>
+                           <inverted>false</inverted>
+                           <status>Assigned</status>
+                           <destination/>
+                           <currentMaxlength unit="mm">9710.0000</currentMaxlength>
+                        </nestpart>
+                     </nestparts>
+                  </h_beam>
+                  <h_beam selected="true" profile="h_beam" id="3" name="Auto Stock(3)" restlabel="" hold="false" profilename="IPE200">
+                     <weblength unit="mm">200.0000</weblength>
+                     <webthickness unit="mm">5.6000</webthickness>
+                     <flangelength unit="mm">100.0000</flangelength>
+                     <flangethickness unit="mm">8.5000</flangethickness>
+                     <radius unit="mm">12.0000</radius>
+                     <flangetaperratio>0.0000</flangetaperratio>
+                     <handlingoffset unit="mm">0.0000</handlingoffset>
+                     <restlength unit="mm">737.0000</restlength>
+                     <status>Assigned</status>
+                     <date/>
+                     <stocksource>auto_stock</stocksource>
+                     <remark/>
+                     <specialnestingtype>Reduce Part Spacing</specialnestingtype>
+                     <supplier/>
+                     <location/>
+                     <order>3</order>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">S355J2</materialname>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">11900.0000</maxlength>
+                     <nestparts>
+                        <nestpart selected="true" refId="2" group="" reduction="-20.0000" reverse="false" batch="" turnover="false" profile="h_beam" id="11" name="4007(3)" hold="false" partRefId="-1">
+                           <offset unit="mm">10.0000</offset>
+                           <rotation unit="deg">0.0000</rotation>
+                           <inverted>false</inverted>
+                           <status>Assigned</status>
+                           <destination/>
+                           <currentMaxlength unit="mm">1480.0000</currentMaxlength>
+                        </nestpart>
+                        <nestpart selected="true" refId="4" group="" reduction="-20.0000" reverse="false" batch="" turnover="false" profile="h_beam" id="3" name="4001(3)" hold="false" partRefId="-1">
+                           <offset unit="mm">3.0000</offset>
+                           <rotation unit="deg">0.0000</rotation>
+                           <inverted>false</inverted>
+                           <status>Assigned</status>
+                           <destination/>
+                           <currentMaxlength unit="mm">9710.0000</currentMaxlength>
+                        </nestpart>
+                     </nestparts>
+                  </h_beam>
+                  <h_beam selected="true" profile="h_beam" id="4" name="Auto Stock(4)" restlabel="" hold="false" profilename="IPE200">
+                     <weblength unit="mm">200.0000</weblength>
+                     <webthickness unit="mm">5.6000</webthickness>
+                     <flangelength unit="mm">100.0000</flangelength>
+                     <flangethickness unit="mm">8.5000</flangethickness>
+                     <radius unit="mm">12.0000</radius>
+                     <flangetaperratio>0.0000</flangetaperratio>
+                     <handlingoffset unit="mm">0.0000</handlingoffset>
+                     <restlength unit="mm">737.0000</restlength>
+                     <status>Assigned</status>
+                     <date/>
+                     <stocksource>auto_stock</stocksource>
+                     <remark/>
+                     <specialnestingtype>Reduce Part Spacing</specialnestingtype>
+                     <supplier/>
+                     <location/>
+                     <order>4</order>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">S355J2</materialname>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">11900.0000</maxlength>
+                     <nestparts>
+                        <nestpart selected="true" refId="2" group="" reduction="-20.0000" reverse="false" batch="" turnover="false" profile="h_beam" id="12" name="4007(4)" hold="false" partRefId="-1">
+                           <offset unit="mm">10.0000</offset>
+                           <rotation unit="deg">0.0000</rotation>
+                           <inverted>false</inverted>
+                           <status>Assigned</status>
+                           <destination/>
+                           <currentMaxlength unit="mm">1480.0000</currentMaxlength>
+                        </nestpart>
+                        <nestpart selected="true" refId="4" group="" reduction="-20.0000" reverse="false" batch="" turnover="false" profile="h_beam" id="4" name="4001(4)" hold="false" partRefId="-1">
+                           <offset unit="mm">3.0000</offset>
+                           <rotation unit="deg">0.0000</rotation>
+                           <inverted>false</inverted>
+                           <status>Assigned</status>
+                           <destination/>
+                           <currentMaxlength unit="mm">9710.0000</currentMaxlength>
+                        </nestpart>
+                     </nestparts>
+                  </h_beam>
+                  <h_beam selected="true" profile="h_beam" id="5" name="Auto Stock(5)" restlabel="" hold="false" profilename="IPE200">
+                     <weblength unit="mm">200.0000</weblength>
+                     <webthickness unit="mm">5.6000</webthickness>
+                     <flangelength unit="mm">100.0000</flangelength>
+                     <flangethickness unit="mm">8.5000</flangethickness>
+                     <radius unit="mm">12.0000</radius>
+                     <flangetaperratio>0.0000</flangetaperratio>
+                     <handlingoffset unit="mm">0.0000</handlingoffset>
+                     <restlength unit="mm">864.0000</restlength>
+                     <status>Assigned</status>
+                     <date/>
+                     <stocksource>auto_stock</stocksource>
+                     <remark/>
+                     <specialnestingtype>Reduce Part Spacing</specialnestingtype>
+                     <supplier/>
+                     <location/>
+                     <order>5</order>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">S355J2</materialname>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">11900.0000</maxlength>
+                     <nestparts>
+                        <nestpart selected="true" refId="2" group="" reduction="-20.0000" reverse="false" batch="" turnover="false" profile="h_beam" id="13" name="4007(5)" hold="false" partRefId="-1">
+                           <offset unit="mm">10.0000</offset>
+                           <rotation unit="deg">0.0000</rotation>
+                           <inverted>false</inverted>
+                           <status>Assigned</status>
+                           <destination/>
+                           <currentMaxlength unit="mm">1480.0000</currentMaxlength>
+                        </nestpart>
+                        <nestpart selected="true" refId="1" group="" reduction="-20.0000" reverse="false" batch="" turnover="false" profile="h_beam" id="15" name="4009(2)" hold="false" partRefId="-1">
+                           <offset unit="mm">3.0000</offset>
+                           <rotation unit="deg">0.0000</rotation>
+                           <inverted>false</inverted>
+                           <status>Assigned</status>
+                           <destination/>
+                           <currentMaxlength unit="mm">4800.0000</currentMaxlength>
+                        </nestpart>
+                        <nestpart selected="true" refId="1" group="" reduction="-20.0000" reverse="false" batch="" turnover="false" profile="h_beam" id="14" name="4009(1)" hold="false" partRefId="-1">
+                           <offset unit="mm">3.0000</offset>
+                           <rotation unit="deg">0.0000</rotation>
+                           <inverted>false</inverted>
+                           <status>Assigned</status>
+                           <destination/>
+                           <currentMaxlength unit="mm">4800.0000</currentMaxlength>
+                        </nestpart>
+                     </nestparts>
+                  </h_beam>
+               </stockitems>
+            </job>
+         </jobs>
+      </nestproject>
+   </nestprojects>
+   <projects>
+      <project id="1" name="Foerch - panouri solare">
+         <source type="MDI" name="ProCAM" version="2021_SR3"/>
+         <target targetid="-" targetname="-" targettype="-"/>
+         <assemblies>
+            <assembly id="1" name="IPE200">
+               <ncparts>
+                  <h_beam selected="true" amount="2" mirroredamount="0" profile="h_beam" id="1" name="4009" hold="false" profilename="IPE200">
+                     <weblength unit="mm">200.0000</weblength>
+                     <webthickness unit="mm">5.6000</webthickness>
+                     <flangelength unit="mm">100.0000</flangelength>
+                     <flangethickness unit="mm">8.5000</flangethickness>
+                     <radius unit="mm">12.0000</radius>
+                     <flangetaperratio>0.0000</flangetaperratio>
+                     <group/>
+                     <destination/>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">S355J2</materialname>
+                     <source type="DSTV" name="-" version="-"/>
+                     <target targetid="1620" targetname="MTD Simplu Construct RPC 1200" targettype="RPC1200MKII"/>
+                     <customView>false</customView>
+                     <customViewEye x="0.0000" z="0.0000" y="0.0000"/>
+                     <customViewCenter x="0.0000" z="0.0000" y="0.0000"/>
+                     <customViewUp x="0.0000" z="0.0000" y="0.0000"/>
+                     <length unit="mm">4780.0000</length>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">4800.0000</maxlength>
+                     <attachment></attachment>
+                     <ncdata>U1QKKiogNDAwOS5uYzEKICAzMjUgLyAyMDIwCiAgNDAwOQogIDMyCiAgNDAwOQogIFMzNTVKMgogIDIKICBJUEUyMDAKICBJCiAgICA0NzgwLjAwCiAgICAgMjAwLjAwCiAgICAgMTAwLjAwCiAgICAgICA4LjUwCiAgICAgICA1LjYwCiAgICAgIDEyLjAwCiAgICAgMjIuNDAwCiAgICAgIDAuNzY4CiAgICAgIDAuMDAwCiAgICAgIDAuMDAwCiAgICAgIDAuMDAwCiAgICAgIDAuMDAwCgoKCgpBSwogIHYgICAgICAgMC4wMHMgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgNDc4MC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgNDc4MC4wMCAgICAgMjAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgICAgMC4wMCAgICAgMjAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMApBSwogIG8gICAgICAgMC4wMHMgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgICAgMC4wMCAgICAgMTAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgNDc4MC4wMCAgICAgMTAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgNDc4MC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMApBSwogIHUgICAgICAgMC4wMHMgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgNDc4MC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgNDc4MC4wMCAgICAgMTAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgICAgMC4wMCAgICAgMTAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMApCTwogIHUgICAgMjMxNS4wMHMgICAgIDIyLjAwICAgICAgMTQuMDAKICB1ICAgIDIzMTUuMDBzICAgICA3OC4wMCAgICAgIDE0LjAwCiAgdSAgICAyNDY1LjAwcyAgICAgMjIuMDAgICAgICAxNC4wMAogIHUgICAgMjQ2NS4wMHMgICAgIDc4LjAwICAgICAgMTQuMDAKRU4K</ncdata>
+                     <nccuts>
+                        <nccut refId="-1" id="1" name="(1)Front_Endcut">
+                           <side>Start</side>
+                           <plane>Front</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="2" name="(1)Top_Endcut">
+                           <side>Start</side>
+                           <plane>Top</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="3" name="(1)Bottom_Endcut">
+                           <side>Start</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="4" name="(2)Bottom_Drillhole">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="5" name="(3)Bottom_Drillhole">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="6" name="(4)Bottom_Drillhole">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="7" name="(5)Bottom_Drillhole">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="8" name="(6)Front_Endcut">
+                           <side>End</side>
+                           <plane>Front</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="9" name="(6)Top_Endcut">
+                           <side>End</side>
+                           <plane>Top</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="10" name="(6)Bottom_Endcut">
+                           <side>End</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                     </nccuts>
+                  </h_beam>
+                  <h_beam selected="true" amount="5" mirroredamount="0" profile="h_beam" id="2" name="4007" hold="false" profilename="IPE200">
+                     <weblength unit="mm">200.0000</weblength>
+                     <webthickness unit="mm">5.6000</webthickness>
+                     <flangelength unit="mm">100.0000</flangelength>
+                     <flangethickness unit="mm">8.5000</flangethickness>
+                     <radius unit="mm">12.0000</radius>
+                     <flangetaperratio>0.0000</flangetaperratio>
+                     <group/>
+                     <destination/>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">S355J2</materialname>
+                     <source type="DSTV" name="-" version="-"/>
+                     <target targetid="1620" targetname="MTD Simplu Construct RPC 1200" targettype="RPC1200MKII"/>
+                     <customView>false</customView>
+                     <customViewEye x="0.0000" z="0.0000" y="0.0000"/>
+                     <customViewCenter x="0.0000" z="0.0000" y="0.0000"/>
+                     <customViewUp x="0.0000" z="0.0000" y="0.0000"/>
+                     <length unit="mm">1460.0000</length>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">1480.0000</maxlength>
+                     <attachment></attachment>
+                     <ncdata>U1QKKiogNDAwNy5uYzEKICAzMjUgLyAyMDIwCiAgNDAwNwogIDMyCiAgNDAwNwogIFMzNTVKMgogIDUKICBJUEUyMDAKICBJCiAgICAxNDYwLjAwCiAgICAgMjAwLjAwCiAgICAgMTAwLjAwCiAgICAgICA4LjUwCiAgICAgICA1LjYwCiAgICAgIDEyLjAwCiAgICAgMjIuNDAwCiAgICAgIDAuNzY4CiAgICAgIDAuMDAwCiAgICAgIDAuMDAwCiAgICAgIDAuMDAwCiAgICAgIDAuMDAwCgoKCgpBSwogIHYgICAgICAgMC4wMHMgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgMTQ2MC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgMTQ2MC4wMCAgICAgMjAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgICAgMC4wMCAgICAgMjAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMApBSwogIG8gICAgICAgMC4wMHMgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgICAgMC4wMCAgICAgMTAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgMTQ2MC4wMCAgICAgMTAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgMTQ2MC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMApBSwogIHUgICAgICAgMC4wMHMgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgMTQ2MC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgMTQ2MC4wMCAgICAgMTAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgICAgMC4wMCAgICAgMTAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMApFTgo=</ncdata>
+                     <nccuts>
+                        <nccut refId="-1" id="11" name="(1)Front_Endcut">
+                           <side>Start</side>
+                           <plane>Front</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="12" name="(1)Top_Endcut">
+                           <side>Start</side>
+                           <plane>Top</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="13" name="(1)Bottom_Endcut">
+                           <side>Start</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="14" name="(2)Front_Endcut">
+                           <side>End</side>
+                           <plane>Front</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="15" name="(2)Top_Endcut">
+                           <side>End</side>
+                           <plane>Top</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="16" name="(2)Bottom_Endcut">
+                           <side>End</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                     </nccuts>
+                  </h_beam>
+                  <h_beam selected="true" amount="4" mirroredamount="0" profile="h_beam" id="3" name="4006" hold="false" profilename="IPE200">
+                     <weblength unit="mm">200.0000</weblength>
+                     <webthickness unit="mm">5.6000</webthickness>
+                     <flangelength unit="mm">100.0000</flangelength>
+                     <flangethickness unit="mm">8.5000</flangethickness>
+                     <radius unit="mm">12.0000</radius>
+                     <flangetaperratio>0.0000</flangetaperratio>
+                     <group/>
+                     <destination/>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">S355J2</materialname>
+                     <source type="DSTV" name="-" version="-"/>
+                     <target targetid="1620" targetname="MTD Simplu Construct RPC 1200" targettype="RPC1200MKII"/>
+                     <customView>false</customView>
+                     <customViewEye x="0.0000" z="0.0000" y="0.0000"/>
+                     <customViewCenter x="0.0000" z="0.0000" y="0.0000"/>
+                     <customViewUp x="0.0000" z="0.0000" y="0.0000"/>
+                     <length unit="mm">11980.0000</length>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">12000.0000</maxlength>
+                     <attachment></attachment>
+                     <ncdata>U1QKKiogNDAwNi5uYzEKICAzMjUgLyAyMDIwCiAgNDAwNgogIDMyCiAgNDAwNgogIFMzNTVKMgogIDQKICBJUEUyMDAKICBJCiAgIDExOTgwLjAwCiAgICAgMjAwLjAwCiAgICAgMTAwLjAwCiAgICAgICA4LjUwCiAgICAgICA1LjYwCiAgICAgIDEyLjAwCiAgICAgMjIuNDAwCiAgICAgIDAuNzY4CiAgICAgIDAuMDAwCiAgICAgIDAuMDAwCiAgICAgIDAuMDAwCiAgICAgIDAuMDAwCgoKCgpBSwogIHYgICAgICAgMC4wMHMgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAxMTk4MC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAxMTk4MC4wMCAgICAgMjAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgICAgMC4wMCAgICAgMjAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMApBSwogIG8gICAgICAgMC4wMHMgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgICAgMC4wMCAgICAgMTAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAxMTk4MC4wMCAgICAgMTAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAxMTk4MC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMApBSwogIHUgICAgICAgMC4wMHMgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAxMTk4MC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAxMTk4MC4wMCAgICAgMTAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgICAgMC4wMCAgICAgMTAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMApCTwogIHUgICAgOTUxNS4wMHMgICAgIDIyLjAwICAgICAgMTQuMDAKICB1ICAgIDk1MTUuMDBzICAgICA3OC4wMCAgICAgIDE0LjAwCiAgdSAgICA5NjY1LjAwcyAgICAgMjIuMDAgICAgICAxNC4wMAogIHUgICAgOTY2NS4wMHMgICAgIDc4LjAwICAgICAgMTQuMDAKRU4K</ncdata>
+                     <nccuts>
+                        <nccut refId="-1" id="17" name="(1)Front_Endcut">
+                           <side>Start</side>
+                           <plane>Front</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="18" name="(1)Top_Endcut">
+                           <side>Start</side>
+                           <plane>Top</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="19" name="(1)Bottom_Endcut">
+                           <side>Start</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="20" name="(2)Bottom_Drillhole">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="21" name="(3)Bottom_Drillhole">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="22" name="(4)Bottom_Drillhole">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="23" name="(5)Bottom_Drillhole">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="24" name="(6)Front_Endcut">
+                           <side>End</side>
+                           <plane>Front</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="25" name="(6)Top_Endcut">
+                           <side>End</side>
+                           <plane>Top</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="26" name="(6)Bottom_Endcut">
+                           <side>End</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                     </nccuts>
+                  </h_beam>
+                  <h_beam selected="true" amount="4" mirroredamount="0" profile="h_beam" id="4" name="4001" hold="false" profilename="IPE200">
+                     <weblength unit="mm">200.0000</weblength>
+                     <webthickness unit="mm">5.6000</webthickness>
+                     <flangelength unit="mm">100.0000</flangelength>
+                     <flangethickness unit="mm">8.5000</flangethickness>
+                     <radius unit="mm">12.0000</radius>
+                     <flangetaperratio>0.0000</flangetaperratio>
+                     <group/>
+                     <destination/>
+                     <customproperty1/>
+                     <customproperty2/>
+                     <materialname materialtype="not_set">S355J2</materialname>
+                     <source type="DSTV" name="-" version="-"/>
+                     <target targetid="1620" targetname="MTD Simplu Construct RPC 1200" targettype="RPC1200MKII"/>
+                     <customView>false</customView>
+                     <customViewEye x="0.0000" z="0.0000" y="0.0000"/>
+                     <customViewCenter x="0.0000" z="0.0000" y="0.0000"/>
+                     <customViewUp x="0.0000" z="0.0000" y="0.0000"/>
+                     <length unit="mm">9690.0000</length>
+                     <heatnumber>X</heatnumber>
+                     <maxlength unit="mm">9710.0000</maxlength>
+                     <attachment></attachment>
+                     <ncdata>U1QKKiogNDAwMS5uYzEKICAzMjUgLyAyMDIwCiAgNDAwMQogIDMyCiAgNDAwMQogIFMzNTVKMgogIDQKICBJUEUyMDAKICBJCiAgICA5NjkwLjAwCiAgICAgMjAwLjAwCiAgICAgMTAwLjAwCiAgICAgICA4LjUwCiAgICAgICA1LjYwCiAgICAgIDEyLjAwCiAgICAgMjIuNDAwCiAgICAgIDAuNzY4CiAgICAgIDAuMDAwCiAgICAgIDAuMDAwCiAgICAgIDAuMDAwCiAgICAgIDAuMDAwCgoKCgpBSwogIHYgICAgICAgMC4wMHMgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgOTY5MC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgOTY5MC4wMCAgICAgMjAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgICAgMC4wMCAgICAgMjAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMApBSwogIG8gICAgICAgMC4wMHMgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgICAgMC4wMCAgICAgMTAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgOTY5MC4wMCAgICAgMTAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgOTY5MC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMApBSwogIHUgICAgICAgMC4wMHMgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgOTY5MC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgOTY5MC4wMCAgICAgMTAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgICAgMC4wMCAgICAgMTAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMAogICAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMCAgICAgICAwLjAwICAgICAgIDAuMDAgICAgICAgMC4wMApCTwogIHUgICAgOTUxNS4wMHMgICAgIDIyLjAwICAgICAgMTQuMDAKICB1ICAgIDk1MTUuMDBzICAgICA3OC4wMCAgICAgIDE0LjAwCiAgdSAgICA5NjY1LjAwcyAgICAgMjIuMDAgICAgICAxNC4wMAogIHUgICAgOTY2NS4wMHMgICAgIDc4LjAwICAgICAgMTQuMDAKRU4K</ncdata>
+                     <nccuts>
+                        <nccut refId="-1" id="27" name="(1)Front_Endcut">
+                           <side>Start</side>
+                           <plane>Front</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="28" name="(1)Top_Endcut">
+                           <side>Start</side>
+                           <plane>Top</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="29" name="(1)Bottom_Endcut">
+                           <side>Start</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="30" name="(2)Bottom_Drillhole">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="31" name="(3)Bottom_Drillhole">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="32" name="(4)Bottom_Drillhole">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="33" name="(5)Bottom_Drillhole">
+                           <side>Intermediate</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="34" name="(6)Front_Endcut">
+                           <side>End</side>
+                           <plane>Front</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="35" name="(6)Top_Endcut">
+                           <side>End</side>
+                           <plane>Top</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                        <nccut refId="-1" id="36" name="(6)Bottom_Endcut">
+                           <side>End</side>
+                           <plane>Bottom</plane>
+                           <bevel unit="deg">0.0000</bevel>
+                           <bevel_i unit="deg">0.0000</bevel_i>
+                           <nose unit="mm">0.0000</nose>
+                           <rootopening unit="mm">0.0000</rootopening>
+                           <cutoffset unit="mm">0.0000</cutoffset>
+                           <rathole unit="mm">0.0000</rathole>
+                        </nccut>
+                     </nccuts>
+                  </h_beam>
+               </ncparts>
+            </assembly>
+         </assemblies>
+         <cangroups/>
+      </project>
+   </projects>
+</dnc>
